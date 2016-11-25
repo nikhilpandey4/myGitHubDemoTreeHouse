@@ -9,9 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
-        let user = "userName"
+        let user = "userNameChanged"
     override func viewDidLoad() {
         super.viewDidLoad()
+            view.backgroundColor = UIColor.red
         // Do any additional setup after loading the view, typically from a nib.
     }
 
